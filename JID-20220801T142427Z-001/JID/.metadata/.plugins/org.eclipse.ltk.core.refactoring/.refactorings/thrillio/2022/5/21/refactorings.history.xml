@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.semanticsquare.thrillio.constants.Book.java&apos; to &apos;BookGenre.java&apos;&#x0D;&#x0A;- Original project: &apos;thrillio&apos;&#x0D;&#x0A;- Original element: &apos;com.semanticsquare.thrillio.constants.Book.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.semanticsquare.thrillio.constants.BookGenre.java&apos;" description="Rename compilation unit &apos;Book.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.semanticsquare.thrillio.constants{Book.java" name="BookGenre.java" references="false" stamp="1652618685074" version="1.0"/>
+</session>

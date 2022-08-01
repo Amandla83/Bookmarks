@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.semanticsquare.thrillio.entities.Movie"/>
+    <fullyQualifiedTypeName name="com.semanticsquare.thrillio.entities.User"/>
+    <fullyQualifiedTypeName name="com.semanticsquare.thrillio.entities.Bookmark"/>
+    <fullyQualifiedTypeName name="com.semanticsquare.thrillio.entities.Book"/>
+    <fullyQualifiedTypeName name="com.semanticsquare.thrillio.entities.WebLink"/>
+</qualifiedTypeNameHistroy>
