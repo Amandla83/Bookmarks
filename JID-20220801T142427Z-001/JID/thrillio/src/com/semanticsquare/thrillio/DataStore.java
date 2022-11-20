@@ -1,5 +1,23 @@
 package com.semanticsquare.thrillio;
 
-public class DataStore {
+import com.semanticsquare.thrillio.entities.Bookmark;
+import com.semanticsquare.thrillio.entities.User;
+import com.semanticsquare.thrillio.entities.UserBookmark;
 
+public class DataStore {
+ private static final int USER_BOOKMARK_LIMIT = 5;
+private static final int BOOKMARK_COUNT_PERTYPE = 5;
+private static final int BOOKMARKS_TYPES_COUNT = 3;
+private static final int TOTAL_USER_COUNT = 5;
+		
+private static User[] users = new User[TOTAL_USER_COUNT]; 
+ private static Bookmark[][] bookmarks = new Bookmark[BOOKMARKS_TYPES_COUNT][BOOKMARK_COUNT_PERTYPE]; 
+ private static UserBookmark[] userBookmarks = new UserBookmark[TOTAL_USER_COUNT*USER_BOOKMARK_LIMIT];
+ 
+ public static void LoadData() {
+	 LoadUsers();
+	 
+ }
+ 
+ 
 }
