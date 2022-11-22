@@ -1,6 +1,7 @@
 package com.semanticsquare.thrillio.managers;
 
 import com.semanticsquare.thrillio.entities.Book;
+import com.semanticsquare.thrillio.entities.Bookmark;
 import com.semanticsquare.thrillio.entities.Movie;
 import com.semanticsquare.thrillio.entities.WebLink;
 
@@ -15,7 +16,7 @@ public class BookmarkManager {
 		return instance;
 	}
 	
-	public WebLink createWebLink(String url,String host,long id,String tittle,String profileUrl) {
+	public WebLink createWeb_Link(String url,String host,long id,String tittle,String profileUrl) {
 		WebLink weblink = new WebLink();
 		weblink.setUrl(url);
 		weblink.setHost(host);
@@ -63,5 +64,10 @@ public class BookmarkManager {
 		
 		return movie;
 
+	}
+
+	public Bookmark createWeb_Link(int i, String string, String string2, String string3) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

@@ -6,7 +6,7 @@ public class Gender {
 	}
 
 	public static final int Male = 0;
-	public static final int FEMALE = 1;
-	public static final int TRANSGENDER = 2;
+	public static final int Female = 1;
+	public static final int Transgender = 2;
 
 }
