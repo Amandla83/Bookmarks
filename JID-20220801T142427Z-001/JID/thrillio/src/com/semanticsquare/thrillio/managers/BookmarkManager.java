@@ -70,4 +70,15 @@ public class BookmarkManager {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	public Bookmark createWeb_Link(int i, String string, String string2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Bookmark createMovie(int i, String string, int j, String string2, String string3, String documentaries,
+			double d) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
